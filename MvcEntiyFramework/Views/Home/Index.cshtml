@@ -1,0 +1,11 @@
+﻿@model List<Category>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@*Html Helper*@
+
+@*@await Html.PartialAsync("_katlist", Model)*@
+
+<partial name="_katlist" model="Model" />
